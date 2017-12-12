@@ -1,0 +1,34 @@
+$gray: #333;
+$black: #121212;
+$defaultFont: georgia,'times new roman',times,serif;
+$largeFont: 700;
+$largeFontSize: 36.7px;
+$mediumFont: 300;
+$mediumFontSize: 18.75px;
+$mediumLineHeight: 25.875px;
+
+.header {
+  color: $black;
+  font-family: $defaultFont;
+  font-weight: $largeFont;
+  font-size: $largeFontSize;
+  margin-bottom: 18px;
+}
+
+.subHeader {
+  color: $gray;
+  font-family: $defaultFont;
+  font-weight: $mediumFont;
+  font-size: $mediumFontSize;
+  line-height: $mediumLineHeight;
+  margin-bottom: 12px;
+}
+
+.direction {
+  font-weight: $largeFont;
+}
+
+.button {
+  margin-top: 18px;
+  margin-right: 9px;
+}

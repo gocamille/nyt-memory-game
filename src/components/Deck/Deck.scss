@@ -1,0 +1,20 @@
+$background-grey: #eee;
+$shadow-grey: #2e3d49;
+
+.container {
+  background: $background-grey;
+  padding: 18px;
+  border-radius: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 560px;
+    height: 610px;
+  }
+}

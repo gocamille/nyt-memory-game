@@ -1,0 +1,64 @@
+$card-weight-height: 125px;
+$card-margin: 3px;
+$card-background-color: #141214;
+$card-blue: #02b3e4;
+$card-red: red;
+$card-green: green;
+$card-font-size: 42px;
+$card-weight-height: 125px;
+
+.card {
+  height: $card-weight-height;
+  width: $card-weight-height;
+  margin: $card-margin;
+  background: #141214;
+  font-size: 0;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.card.flipped {
+  transform: rotateY(0);
+  background: $card-blue;
+  cursor: default;
+  animation-name: flipInY;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-duration: 0.75s;
+  font-size: $card-font-size;
+}
+
+.card.unmatched {
+  background: $card-red;
+  font-size: $card-font-size;
+}
+
+.card.matched {
+  background: $card-green;
+  font-size: $card-font-size;
+}
+
+@media (min-width: 768px) {
+  .card {
+    height: $card-weight-height;
+    width: $card-weight-height;
+  }
+}
+
+.card.ummatchedAnimation {
+  animation: cssAnimation 0s ease-in 0.8s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cssAnimation {
+  to {
+    background: $card-background-color;
+    font-size: 0;
+  }
+}

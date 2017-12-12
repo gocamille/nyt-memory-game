@@ -1,0 +1,30 @@
+$black: #121212;
+$defaultFont: georgia,'times new roman',times,serif;
+$largeFont: 700;
+$largeFontSize: 36.7px;
+$mediumFont: 300;
+$mediumFontSize: 18.75px;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.header {
+  color: $black;
+  font-family: $defaultFont;
+  font-size: $largeFontSize;
+  font-weight: $largeFont;
+  margin-bottom: 20px;
+}
+
+.placeholder {
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  font-size: $mediumFontSize;
+}

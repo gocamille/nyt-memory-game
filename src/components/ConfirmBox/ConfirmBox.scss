@@ -1,0 +1,28 @@
+$gray: #333;
+$black: #121212;
+$defaultFont: georgia,'times new roman',times,serif;
+$largeFont: 700;
+$largeFontSize: 36.7px;
+$mediumFont: 300;
+$mediumFontSize: 18.75px;
+
+.header {
+  color: $black;
+  font-family: $defaultFont;
+  font-weight: $largeFont;
+  font-size: $largeFontSize;
+  margin-bottom: 9px;
+}
+
+.subHeader {
+  color: $gray;
+  font-family: $defaultFont;
+  font-weight: $mediumFont;
+  font-size: $mediumFontSize;
+  margin-bottom: 9px;
+}
+
+.button {
+  margin-top: 18px;
+  margin-right: 9px;
+}

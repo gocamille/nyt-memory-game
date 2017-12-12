@@ -1,0 +1,4 @@
+{
+  "presets": ["kyt-react"],
+  "plugins": ["transform-object-rest-spread"]
+}
