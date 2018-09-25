@@ -1,5 +1,7 @@
 # NYT Web Code Test: The New York Times Memory Game!
 
+![Memory Game Image](https://github.com/gocamille/nyt-memory-game/blob/master/src/assets/game_image_600.png "Memory Game Image")
+
 Thank you for visiting the New York Times Memory Game! This is a playable version
 of the card-matching game Memory. 
 
